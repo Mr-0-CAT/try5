@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "tinacms build && eleventy",
+    "dev": "tinacms dev -c \"eleventy --serve\""
   },
   "keywords": [],
   "author": "",
